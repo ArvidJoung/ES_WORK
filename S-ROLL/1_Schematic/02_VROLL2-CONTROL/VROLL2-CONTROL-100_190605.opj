@@ -1,0 +1,27 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\vroll2-control-100_190605.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (MPSSessionName "ESG")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\vroll2-control-100_190605.dsn")
+      (Path "Design Resources" ".\vroll2-control-100_190605.dsn" "VROLL")
+      (Select "Design Resources" ".\vroll2-control-100_190605.dsn" "VROLL"
+         "CONTROL BOARD"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 278"))
+      (Tab 0))))

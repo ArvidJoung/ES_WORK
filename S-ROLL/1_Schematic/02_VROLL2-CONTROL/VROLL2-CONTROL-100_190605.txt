@@ -1,0 +1,2718 @@
+*PADS-LOGIC-V9.0-CP949* DESIGN EXPORT FILE FROM PADS LOGIC VVX.2.3
+*SCH*        GENERAL PARAMETERS OF THE SCHEMATIC DESIGN"
+
+CUR SHEET    0              Current Active Sheet
+USERGRID     100    10      Design and Label/Text grid settings
+LINEWIDTH    10             Width items will be created with
+CONNWIDTH    10             Width used to plot connections
+BUSWIDTH     25             Width used to plot buses
+BUSANGLE     25             Angle used when plotting buses
+NNVISPWRGND  4              Pwr/Gnd netname visibility default flag
+PCBFLAGS     1027           PCB Netlist and ECO options
+PINNAMESIZE  100    10      Height and LineWidth used by pin names
+TEXTSIZE     100    10      Height and LineWidth text will be created width
+JOBTIME      0              Amount of time spent on this LOGIC design
+DOTGRID      10             Space in thous/inch between graphic dots
+BACKUPTIME   5              Number of minutes between database backups
+TIEDOTSIZE   20             Diameter of tiedot point
+REFNAMESIZE  100    10      Height and LineWidth used by part ref. names
+PARTNAMESIZE 100    10      Height and LineWidth used by part type names
+PINNOSIZE    100    10      Height and LineWidth used by pin numbers
+NETNAMESIZE  100    10      Height and LineWidth used by net names
+REAL WIDTH   20             Widths greater then this are displayed real size
+SHEET SIZE   B             
+UNITS        -1             Rules units type
+JOBNAME      VROLL2-CONTROL-100_190605.sch
+NTXCOL 11 15
+HIRCOL 2
+LINCOL 0
+TXTCOL 0 15
+CONCOL 4
+BUSCOL 9
+PTXCOL 0 15
+COMCOL 9
+NMCOL  1 15
+PNMCOL 1 15
+PINCOL 0 15
+NETCOL 12 15
+FBGCOL 13 15
+OFFREFVIEW   0              Offsheet references visibility default flag
+OFFREFNUM    0              Offsheet references per line
+SHEETNUMSEP  []             Sheet Number separators
+FONT MODE   System
+DEFAULT FONT "Regular Arial Unicode MS"
+BORDER NAME SIZEB
+FIELDCOL 10 0
+
+*CAM* PLOTTER SETTINGS 
+
+*MISC*      MISCELLANEOUS PARAMETERS
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+LAYER	DATA
+{
+LAYER	0
+{
+LAYER_THICKNESS	0
+DIELECTRIC	3.300000
+}
+LAYER	1
+{
+LAYER_NAME	Top
+LAYER_TYPE	ROUTING
+PLANE	NONE
+ROUTING_DIRECTION	HORIZONTAL
+ASSOCIATED_SILK_SCREEN	Silkscreen Top
+ASSOCIATED_PASTE_MASK	Paste Mask Top
+ASSOCIATED_SOLDER_MASK	Solder Mask Top
+ASSOCIATED_ASSEMBLY	Assembly Drawing Top
+COMPONENT	Y
+ROUTABLE	Y
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	381000
+COPPER_THICKNESS	51435
+DIELECTRIC	4.300000
+COST	0
+}
+LAYER	2
+{
+LAYER_NAME	Bottom
+LAYER_TYPE	ROUTING
+PLANE	NONE
+ROUTING_DIRECTION	VERTICAL
+ASSOCIATED_SILK_SCREEN	Silkscreen Bottom
+ASSOCIATED_PASTE_MASK	Paste Mask Bottom
+ASSOCIATED_SOLDER_MASK	Solder Mask Bottom
+ASSOCIATED_ASSEMBLY	Assembly Drawing Bottom
+COMPONENT	Y
+ROUTABLE	Y
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	51435
+DIELECTRIC	3.300000
+COST	0
+}
+LAYER	3
+{
+LAYER_NAME	Layer_3
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	4
+{
+LAYER_NAME	Layer_4
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	5
+{
+LAYER_NAME	Layer_5
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	6
+{
+LAYER_NAME	Layer_6
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	7
+{
+LAYER_NAME	Layer_7
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	8
+{
+LAYER_NAME	Layer_8
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	9
+{
+LAYER_NAME	Layer_9
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	10
+{
+LAYER_NAME	Layer_10
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	11
+{
+LAYER_NAME	Layer_11
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	12
+{
+LAYER_NAME	Layer_12
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	13
+{
+LAYER_NAME	Layer_13
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	14
+{
+LAYER_NAME	Layer_14
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	15
+{
+LAYER_NAME	Layer_15
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	16
+{
+LAYER_NAME	Layer_16
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	17
+{
+LAYER_NAME	Layer_17
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	18
+{
+LAYER_NAME	Layer_18
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	19
+{
+LAYER_NAME	Layer_19
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	20
+{
+LAYER_NAME	Layer_20
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	21
+{
+LAYER_NAME	Solder Mask Top
+LAYER_TYPE	SOLDER_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	22
+{
+LAYER_NAME	Paste Mask Bottom
+LAYER_TYPE	PASTE_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	23
+{
+LAYER_NAME	Paste Mask Top
+LAYER_TYPE	PASTE_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	24
+{
+LAYER_NAME	Drill Drawing
+LAYER_TYPE	DRILL
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	25
+{
+LAYER_NAME	Layer_25
+LAYER_TYPE	UNASSIGNED
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	26
+{
+LAYER_NAME	Silkscreen Top
+LAYER_TYPE	SILK_SCREEN
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	27
+{
+LAYER_NAME	Assembly Drawing Top
+LAYER_TYPE	ASSEMBLY
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	28
+{
+LAYER_NAME	Solder Mask Bottom
+LAYER_TYPE	SOLDER_MASK
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	29
+{
+LAYER_NAME	Silkscreen Bottom
+LAYER_TYPE	SILK_SCREEN
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+LAYER	30
+{
+LAYER_NAME	Assembly Drawing Bottom
+LAYER_TYPE	ASSEMBLY
+PLANE	NONE
+ROUTING_DIRECTION	NO_PREFERENCE
+VISIBLE	Y
+SELECTABLE	Y
+ENABLED	Y
+LAYER_THICKNESS	0
+COPPER_THICKNESS	0
+DIELECTRIC	0.000000
+COST	0
+}
+}
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+RULES_SECTION	PARENT
+{
+NET_CLASS	DATA
+DESIGN	RULES
+{
+RULE_SET	(1)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+CLEARANCE_RULE	:
+{
+TRACK_TO_TRACK	228600
+VIA_TO_TRACK	228600
+VIA_TO_VIA	228600
+PAD_TO_TRACK	228600
+PAD_TO_VIA	228600
+PAD_TO_PAD	228600
+SMD_TO_TRACK	228600
+SMD_TO_VIA	228600
+SMD_TO_PAD	228600
+SMD_TO_SMD	228600
+COPPER_TO_TRACK	228600
+COPPER_TO_VIA	228600
+COPPER_TO_PAD	228600
+COPPER_TO_SMD	228600
+COPPER_TO_COPPER	228600
+TEXT_TO_TRACK	228600
+TEXT_TO_VIA	228600
+TEXT_TO_PAD	228600
+TEXT_TO_SMD	228600
+OUTLINE_TO_TRACK	228600
+OUTLINE_TO_VIA	228600
+OUTLINE_TO_PAD	228600
+OUTLINE_TO_SMD	228600
+OUTLINE_TO_COPPER	228600
+DRILL_TO_TRACK	228600
+DRILL_TO_VIA	228600
+DRILL_TO_PAD	228600
+DRILL_TO_SMD	228600
+DRILL_TO_COPPER	228600
+SAME_NET_SMD_TO_VIA	228600
+SAME_NET_SMD_TO_CRN	228600
+SAME_NET_VIA_TO_VIA	228600
+SAME_NET_PAD_TO_CRN	228600
+MIN_TRACK_WIDTH	228600
+REC_TRACK_WIDTH	228600
+MAX_TRACK_WIDTH	228600
+DRILL_TO_DRILL	228600
+BODY_TO_BODY	228600
+SAME_NET_TRACK_TO_CRN	228600
+}
+}
+RULE_SET	(2)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+ROUTE_RULE	:
+{
+LENGTH_MINIMIZATION_TYPE	1
+TRACE_SHARE	Y
+VIA_SHARE	Y
+AUTO_ROUTE	Y
+RIPUP	Y
+SHOVE	Y
+ROUTE_PRIORITY	3
+MAX_NUMBER_OF_VIAS	-1
+VALID_LAYER	1
+VALID_LAYER	2
+VALID_VIA_TYPE	*USE_CURRENT*
+}
+}
+RULE_SET	(3)
+{
+FOR	:
+{
+DEFAULT	:
+}
+AGAINST	:
+{
+DEFAULT	:
+}
+LAYER	0
+HIGH_SPEED_RULE	:
+{
+MIN_LENGTH	0
+MAX_LENGTH	1904999936
+STUB_LENGTH	0
+PARALLEL_LENGTH	38100000
+PARALLEL_GAP	7620000
+TANDEM_LENGTH	38100000
+TANDEM_GAP	7620000
+MIN_DELAY	0.000000
+MAX_DELAY	10.000000
+MIN_CAPACITANCE	0.000000
+MAX_CAPACITANCE	10.000000
+MIN_IMPEDANCE	50.000000
+MAX_IMPEDANCE	150.000000
+SHIELD_NET	*
+SHIELD_GAP	7620000
+MATCH_LENGTH_TOLERANCE	7620000
+}
+}
+}
+}
+
+*FIELDS*    USER FIELDS
+
+
+*SHT*   1 CONTROL_BOARD -1 $$$NONE
+*CAE*        GENERAL PARAMETERS FOR THE SHEET"
+
+SCALE        3.810          Scale of window expansion
+WINDOWCENTER 4201   2970    Point defining the center of the window
+BITCS0       0              system status bits
+BITCS1       0              system status bits
+BITCS2       0              system status bits
+
+*TEXT*       FREE TEXT
+
+4010   3800   90  0 133  10 0 "Regular Courier New"
++
+8810   3780   90  0 133  10 0 "Regular Courier New"
++
+5610   3780   90  0 133  10 0 "Regular Courier New"
++
+7210   3780   90  0 133  10 0 "Regular Courier New"
++
+10410  3800   90  0 133  10 0 "Regular Courier New"
++
+4010   3300   90  0 133  10 0 "Regular Courier New"
+-
+8810   3280   90  0 133  10 0 "Regular Courier New"
+-
+5610   3280   90  0 133  10 0 "Regular Courier New"
+-
+7210   3280   90  0 133  10 0 "Regular Courier New"
+-
+10410  3300   90  0 133  10 0 "Regular Courier New"
+-
+12700  6570   0   0 133  10 0 "Regular Courier New"
+POWER ON/OFF
+8600   6270   0   0 133  10 0 "Regular Courier New"
+BUZZER
+3990   4100   90  0 107  10 0 "Regular Courier New"
+LEVEL_1
+5590   4080   90  0 107  10 0 "Regular Courier New"
+LEVEL_2
+7190   4080   90  0 107  10 0 "Regular Courier New"
+LEVEL_3
+8790   4080   90  0 107  10 0 "Regular Courier New"
+LEVEL_4
+10390  4080   90  0 107  10 0 "Regular Courier New"
+LEVEL_5
+-50    1660   0   12 93   10 0 "Regular Courier New"
+A
+-50    4580   0   12 93   10 0 "Regular Courier New"
+B
+-50    7500   0   12 93   10 0 "Regular Courier New"
+C
+-50    10420  0   12 93   10 0 "Regular Courier New"
+D
+1660   11930  0   12 93   10 0 "Regular Courier New"
+5
+4980   11930  0   12 93   10 0 "Regular Courier New"
+4
+8300   11930  0   12 93   10 0 "Regular Courier New"
+3
+11620  11930  0   12 93   10 0 "Regular Courier New"
+2
+14940  11930  0   12 93   10 0 "Regular Courier New"
+1
+16650  10420  0   12 93   10 0 "Regular Courier New"
+D
+16650  7500   0   12 93   10 0 "Regular Courier New"
+C
+16650  4580   0   12 93   10 0 "Regular Courier New"
+B
+16650  1660   0   12 93   10 0 "Regular Courier New"
+A
+14940  150    0   12 93   10 0 "Regular Courier New"
+1
+11620  150    0   12 93   10 0 "Regular Courier New"
+2
+8300   150    0   12 93   10 0 "Regular Courier New"
+3
+4980   150    0   12 93   10 0 "Regular Courier New"
+4
+1660   150    0   12 93   10 0 "Regular Courier New"
+5
+
+*LINES*      LINES ITEMS
+
+$$DRW00000       LINES    0      0      1   0
+CLOSED 5   20  0  
+8500   5980  
+8500   8680  
+11900  8680  
+11900  5980  
+8500   5980  
+$$DRW00001       LINES    0      0      1   0
+CLOSED 5   1   255
+0      200   
+0      11880 
+16600  11880 
+16600  200   
+0      200   
+$$DRW00002       LINES    0      0      1   0
+CLOSED 58  1   255
+-100   200   
+-100   3120  
+0      3120  
+-100   3120  
+-100   6040  
+0      6040  
+-60    6070  
+-60    6010  
+0      6040  
+-100   6040  
+-100   8960  
+0      8960  
+-100   8960  
+-100   11880 
+-100   11980 
+3320   11980 
+3320   11880 
+3320   11980 
+6640   11980 
+6640   11880 
+6640   11980 
+9960   11980 
+9960   11880 
+9960   11980 
+13280  11980 
+13280  11880 
+13280  11980 
+16600  11980 
+16700  11980 
+16700  8960  
+16600  8960  
+16700  8960  
+16700  6040  
+16600  6040  
+16660  6070  
+16660  6010  
+16600  6040  
+16700  6040  
+16700  3120  
+16600  3120  
+16700  3120  
+16700  200   
+16700  100   
+13280  100   
+13280  200   
+13280  100   
+9960   100   
+9960   200   
+9960   100   
+6640   100   
+6640   200   
+6640   100   
+3320   100   
+3320   200   
+3320   100   
+0      100   
+-100   100   
+-100   200   
+
+*CAEDECAL*  ITEMS
+
+PIN50            32000 32000 100 10 100 10 2 1 0 0 0 1
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+100 250 90 10 93 10 "Regular Arial Unicode MS"
+REF-DES
+100 350 90 0 93 10 "Regular Arial Unicode MS"
+PART-TYPE
+OPEN   2   1   255
+0     0    
+-100  0    
+
+PIN150           32000 32000 100 10 100 10 2 1 0 0 0 1
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+50 1000 0 8 93 10 "Regular Arial Unicode MS"
+REF-DES
+-50 1000 0 1 93 10 "Regular Arial Unicode MS"
+PART-TYPE
+OPEN   2   1   255
+0     0    
+-300  0    
+
+RB               32000 32000 100 10 100 10 3 6 0 2 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+290 230 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+290 140 0 0 93 10 "Regular Arial Unicode MS"
+Value
+OPEN   2   1   255
+100   300  
+130   270  
+OPEN   2   1   255
+130   270  
+70    210  
+OPEN   2   1   255
+70    210  
+130   150  
+OPEN   2   1   255
+130   150  
+70    90   
+OPEN   2   1   255
+70    90   
+130   30   
+OPEN   2   1   255
+130   30   
+100   0    
+T100   400   90 0 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+T100   -100  90 2 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+
+PART_TP          32000 32000 100 10 100 10 2 2 0 1 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 130 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+COPCLS 37  1   255
+160   84   
+158   88   
+156   90   
+152   92   
+146   94   
+138   96   
+130   98   
+120   98   
+110   100  
+100   100  
+90    100  
+78    98   
+70    98   
+60    96   
+54    94   
+48    92   
+44    90   
+40    88   
+40    84   
+40    82   
+44    80   
+48    78   
+54    74   
+60    74   
+70    72   
+78    70   
+90    70   
+100   70   
+110   70   
+120   70   
+130   72   
+138   74   
+146   74   
+152   78   
+156   80   
+158   82   
+160   84   
+COPCLS 5   1   255
+90    0    
+90    70   
+110   70   
+110   0    
+90    0    
+T100   0     90 2 50 0 90 0 -50 0 90 10 
+P0 0 0 0 0 0 0 1 16
+
+NPN_DAR1_0       32000 32000 100 10 100 10 3 24 0 3 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+590 430 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+590 340 0 0 93 10 "Regular Arial Unicode MS"
+Value
+COPCLS 5   1   255
+470   230  
+500   260  
+500   200  
+440   200  
+470   230  
+OPEN   2   1   255
+60    300  
+0     300  
+OPEN   2   1   255
+400   400  
+400   200  
+OPEN   2   1   255
+500   500  
+500   400  
+OPEN   2   1   255
+500   400  
+400   300  
+OPEN   2   1   255
+400   300  
+470   230  
+OPEN   2   1   255
+400   300  
+370   300  
+OPEN   2   1   255
+260   300  
+240   320  
+OPEN   2   1   255
+240   320  
+200   280  
+OPEN   2   1   255
+200   280  
+160   320  
+OPEN   2   1   255
+160   320  
+120   280  
+OPEN   2   1   255
+120   280  
+80    320  
+OPEN   2   1   255
+310   260  
+310   300  
+OPEN   2   1   255
+260   300  
+370   300  
+OPEN   2   1   255
+290   240  
+330   200  
+OPEN   2   1   255
+330   200  
+290   160  
+OPEN   2   1   255
+290   160  
+330   120  
+OPEN   2   1   255
+330   120  
+290   80   
+OPEN   2   1   255
+290   80   
+310   60   
+OPEN   2   1   255
+310   60   
+310   0    
+OPEN   2   1   255
+310   0    
+500   0    
+OPEN   2   1   255
+500   200  
+500   0    
+OPEN   2   1   255
+80    320  
+60    300  
+OPEN   2   1   255
+310   260  
+290   240  
+T-100  300   0 1 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 0
+T500   -100  90 2 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 0
+T500   600   90 0 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 0
+
+LED_0            32000 32000 100 10 100 10 3 8 0 2 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 330 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+10 -180 0 0 93 10 "Regular Arial Unicode MS"
+Value
+OPEN   2   1   255
+200   170  
+200   30   
+OPEN   2   1   255
+0     100  
+100   100  
+OPEN   2   1   255
+200   100  
+400   100  
+COPCLS 5   1   255
+200   100  
+200   100  
+100   30   
+100   170  
+200   100  
+COPCLS 5   1   255
+320   180  
+320   180  
+360   200  
+340   160  
+320   180  
+COPCLS 5   1   255
+260   180  
+260   180  
+300   200  
+280   160  
+260   180  
+OPEN   2   1   255
+290   190  
+230   130  
+OPEN   2   1   255
+350   190  
+290   130  
+T500   100   0 0 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+T-100  100   0 1 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+
+CON18_3          32000 32000 100 10 100 10 3 21 0 10 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 1230 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+0 -170 0 0 93 10 "Regular Arial Unicode MS"
+Value
+CLOSED 6   1   255
+0     1100 
+0     1100 
+0     0    
+300   0    
+300   1100 
+0     1100 
+OPEN   3   1   255
+0     1000 
+0     1000 
+100   1000 
+OPEN   3   1   255
+0     900  
+0     900  
+100   900  
+OPEN   3   1   255
+0     800  
+0     800  
+100   800  
+OPEN   3   1   255
+0     700  
+0     700  
+100   700  
+OPEN   3   1   255
+0     600  
+0     600  
+100   600  
+OPEN   3   1   255
+0     500  
+0     500  
+100   500  
+OPEN   3   1   255
+0     400  
+0     400  
+100   400  
+OPEN   3   1   255
+0     300  
+0     300  
+100   300  
+OPEN   3   1   255
+0     200  
+0     200  
+100   200  
+OPEN   3   1   255
+0     100  
+0     100  
+100   100  
+COPCLS 5   1   255
+100   980  
+100   1020 
+200   1020 
+200   980  
+100   980  
+COPCLS 5   1   255
+100   880  
+100   920  
+200   920  
+200   880  
+100   880  
+COPCLS 5   1   255
+100   780  
+100   820  
+200   820  
+200   780  
+100   780  
+COPCLS 5   1   255
+100   680  
+100   720  
+200   720  
+200   680  
+100   680  
+COPCLS 5   1   255
+100   580  
+100   620  
+200   620  
+200   580  
+100   580  
+COPCLS 5   1   255
+100   480  
+100   520  
+200   520  
+200   480  
+100   480  
+COPCLS 5   1   255
+100   380  
+100   420  
+200   420  
+200   380  
+100   380  
+COPCLS 5   1   255
+100   280  
+100   320  
+200   320  
+200   280  
+100   280  
+COPCLS 5   1   255
+100   180  
+100   220  
+200   220  
+200   180  
+100   180  
+COPCLS 5   1   255
+100   80   
+100   120  
+200   120  
+200   80   
+100   80   
+T-300  1000  0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  900   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  800   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  700   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  600   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  500   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  400   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  300   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  200   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  100   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+
+SW_TACT-SPST     32000 32000 100 10 100 10 3 10 0 2 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 330 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+0 -170 0 0 93 10 "Regular Arial Unicode MS"
+Value
+OPEN   2   1   255
+0     150  
+300   150  
+OPEN   2   1   255
+300   150  
+300   170  
+OPEN   2   1   255
+300   170  
+180   170  
+OPEN   2   1   255
+180   170  
+180   200  
+OPEN   2   1   255
+180   200  
+120   200  
+OPEN   2   1   255
+120   200  
+120   170  
+OPEN   2   1   255
+120   170  
+0     170  
+CIRCLE 2   1   255
+0     100  
+60    100  
+CIRCLE 2   1   255
+240   100  
+300   100  
+OPEN   2   1   255
+0     150  
+0     170  
+T-100  100   0 1 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+T400   100   0 0 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+
+CAP_NPC          32000 32000 100 10 100 10 3 4 0 2 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+290 30 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+290 -60 0 0 93 10 "Regular Arial Unicode MS"
+Value
+OPEN   2   1   255
+100   100  
+100   80   
+OPEN   2   1   255
+10    30   
+190   30   
+OPEN   2   1   255
+10    80   
+190   80   
+OPEN   2   1   255
+100   0    
+100   30   
+T100   200   90 0 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+T100   -100  90 2 -50 0 0 0 -150 0 0 9 PIN50
+P0 0 0 0 0 0 0 1 16
+
+TITLE_BLOCK_MEDIANA_0 32000 32000 100 10 100 10 13 7 12 0 3 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+580 570 0 0 93 10 "Bold Arial Unicode MS"
+Business
+2070 570 0 0 93 10 "Bold Arial Unicode MS"
+Descripition
+1050 80 0 0 93 10 "Bold Arial Unicode MS"
+Date1
+360 80 0 0 93 10 "Bold Arial Unicode MS"
+Date
+3210 80 0 0 93 10 "Regular Arial Unicode MS"
+R
+2030 760 0 0 133 10 "Bold Arial Unicode MS"
+PROJECT
+1900 80 0 0 93 10 "Bold Arial Unicode MS"
+P
+70 260 0 0 93 10 "Bold Arial Unicode MS"
+DRAFTER
+2010 240 0 0 133 10 "Bold Arial Unicode MS"
+DOC NUM
+2330 80 0 0 93 10 "Bold Arial Unicode MS"
+PT
+780 270 0 0 93 10 "Bold Arial Unicode MS"
+APPROVED
+OPEN   2   1   255
+1410  10   
+1410  900  
+OPEN   2   1   255
+710   10   
+710   500  
+CLOSED 5   1   255
+0     10   
+0     900  
+3420  900  
+3420  10   
+0     10   
+OPEN   2   1   255
+2860  200  
+2860  10   
+OPEN   2   1   255
+0     700  
+3420  700  
+OPEN   2   1   255
+0     500  
+3420  500  
+OPEN   2   1   255
+0     200  
+3420  200  
+210    760    0   0 133 10
+EunSung Global
+2940   80     0   0 93  10
+Rev.
+1510   560    0   0 93  10
+Description :
+730    80     0   0 93  10
+DATE:
+20     70     0   0 93  10
+DATE:
+2130   80     0   0 93  10
+OF
+1510   80     0   0 93  10
+SHEET
+1510   390    0   0 93  10
+Doc. NUMBER
+730    390    0   0 93  10
+APPROVED
+20     390    0   0 93  10
+DRAFTER
+1500   770    0   0 93  10
+PROJECT:
+20     570    0   0 93  10
+BUSINESS :
+
+BUZZER(BUZ-1205)_0 32000 32000 100 10 100 10 3 5 1 4 2 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+140 830 0 0 92 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+0 -170 0 0 93 10 "Regular Arial Unicode MS"
+Value
+CLOSED 5   1   255
+100   100  
+100   300  
+400   300  
+400   100  
+100   100  
+OPEN   2   1   255
+400   300  
+100   600  
+CLOSED 5   1   255
+0     0    
+0     700  
+600   700  
+600   0    
+0     0    
+OPEN   2   1   255
+100   600  
+0     600  
+OPEN   2   1   255
+100   100  
+0     100  
+30     620    0   0 93  10
++
+T900   100   0 0 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  600   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T-300  100   0 1 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+T900   600   0 0 -250 0 0 0 -350 0 0 9 PIN150
+P0 0 0 0 0 0 0 1 0
+
+PORTLEFT-LB      32000 32000 100 10 100 10 3 5 0 1 30 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+320 -20 0 0 93 10 "Regular Arial Unicode MS"
+Name
+OPEN   2   1   255
+0     0    
+100   50   
+OPEN   2   1   255
+100   50   
+300   50   
+OPEN   2   1   255
+300   50   
+300   -50  
+OPEN   2   1   255
+300   -50  
+100   -50  
+OPEN   2   1   255
+100   -50  
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 0 
+P0 0 0 0 0 0 0 1 208
+
+GNDB             32000 32000 100 10 100 10 2 4 0 1 30 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+OPEN   2   1   255
+-100  0    
+100   0    
+OPEN   2   1   255
+-70   -30  
+70    -30  
+OPEN   2   1   255
+40    -60  
+-40   -60  
+OPEN   2   1   255
+-10   -90  
+10    -90  
+T0     0     0 0 0 0 0 0 0 0 0 0 
+P0 0 0 0 0 0 0 1 208
+
+VCC_CIRCLE       32000 32000 100 10 100 10 3 2 0 1 30 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+-50 130 0 0 93 10 "Regular Arial Unicode MS"
+Name
+CIRCLE 2   1   255
+-30   70   
+30    70   
+OPEN   2   1   255
+0     40   
+0     0    
+T0     0     0 0 0 0 0 0 0 0 0 0 
+P0 0 0 0 0 0 0 1 208
+
+VCCC             32000 32000 100 10 100 10 3 2 0 1 30 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+-100 130 0 0 93 10 "Regular Arial Unicode MS"
+Name
+OPEN   2   1   255
+0     40   
+0     0    
+CIRCLE 2   1   255
+-30   70   
+30    70   
+T0     0     0 0 0 0 0 0 0 0 0 0 
+P0 0 0 0 0 0 0 1 208
+
+GNDD             32000 32000 100 10 100 10 2 4 0 1 30 0
+TIMESTAMP 1970.01.01.00.00.00
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 "Regular Arial Unicode MS"
+PART-TYPE
+OPEN   2   1   255
+-100  0    
+100   0    
+OPEN   2   1   255
+-70   -30  
+70    -30  
+OPEN   2   1   255
+40    -60  
+-40   -60  
+OPEN   2   1   255
+-10   -90  
+10    -90  
+T0     0     0 0 0 0 0 0 0 0 0 0 
+P0 0 0 0 0 0 0 1 208
+
+
+*PARTTYPE*   ITEMS
+
+R RES  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 2 0
+RB
+1 0 L 1
+2 0 L 2
+
+PART_TP UND  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 1 0
+PART_TP
+1 0 L 1
+
+NPN_DAR1_0 TRX  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 3 0
+NPN_DAR1_0
+2 0 L BASE
+1 0 L EMITTER
+3 0 L COLLECTOR
+
+LED_0 DIO  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 2 0
+LED_0
+2 0 L ANODE
+1 0 L CATHODE
+
+CON18_3 CON  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 10 0
+CON18_3
+1 0 L 1
+2 0 L 2
+3 0 L 3
+4 0 L 4
+5 0 L 5
+6 0 L 6
+7 0 L 7
+8 0 L 8
+9 0 L 9
+10 0 L 10
+
+SW_TACT-SPST SWI  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 2 0
+SW_TACT-SPST
+1 0 L 1
+2 0 L 2
+
+CAP_NP CAP  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 2 0
+CAP_NPC
+1 0 L 1
+2 0 L 2
+
+TITLE_BLOCK_MEDIANA_0 UND  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 0 0
+TITLE_BLOCK_MEDIANA_0
+
+BUZZER(BUZ-1205)_0 UND  1   0   0     0
+TIMESTAMP 1970.01.01.00.00.00
+GATE 1 4 0
+BUZZER(BUZ-1205)_0
+4 0 L NC
+2 0 L B
+3 0 L A
+1 0 L NC
+
+$OSR_SYMS UND  0   0   2     0
+TIMESTAMP 1970.01.01.00.00.00
+OFF 1
+PORTLEFT-LB S 
+
+$GND_SYMS UND  0   0   2     0
+TIMESTAMP 1970.01.01.00.00.00
+GND 2
+GNDB P GND
+GNDD P GND
+
+$PWR_SYMS UND  0   0   2     0
+TIMESTAMP 1970.01.01.00.00.00
+PWR 2
+VCC_CIRCLE S +4_3V
+VCCC P +4_3V
+
+
+
+*PART*       ITEMS
+
+
+
+R1           R                4000  2380    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-230 230 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-620 110 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-R
+"Source_Path" C:\YANG\OR\MINIDT1.OLB
+"Value" 4.99KF(2012)
+0 -50 0 0 0
+1 -50 0 0 0
+
+LV1          PART_TP          6000  8680   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+R3           R                7200  2380    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-230 230 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-620 110 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-R
+"Source_Path" C:\YANG\OR\MINIDT1.OLB
+"Value" 4.99KF(2012)
+0 -50 0 0 0
+1 -50 0 0 0
+
+Q6           NPN_DAR1_0       10000 1580    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-20 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-650 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+R5           R                10400 2380    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-230 230 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-620 110 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-R
+"Source_Path" C:\YANG\OR\MINIDT1.OLB
+"Value" 4.99KF(2012)
+0 -50 0 0 0
+1 -50 0 0 0
+
+Q4           NPN_DAR1_0       6800  1580    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-20 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-650 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+LED5         LED_0            10600 3780   90 2 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+190 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" LED3M
+"Source_Path" C:\WORK\PROJECT\1.MYPROJECT\07_VROLL2\01_BUILD V1.0\02_VROLL2-CONTROL\VROLL2-CONTROL-001_190508.DSN
+"Value" L-314SBC
+0 -50 0 0 0
+1 -50 0 0 0
+
+CN1          CON18_3          2500  7980    0 1 100 10 100 10 7 3 10 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+190 1230 0 1 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+500 -170 0 1 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 0.5S-10P-CON
+"Source_Path" D:\A08. PROJECT(개인용)\03. BLESS-U\1. 회로도\BLESS_U(Y)_MAIN_REV0-4_170707.DSN
+"Value" 05002HR-10
+0 -250 0 0 0
+1 -250 0 0 0
+2 -250 0 0 0
+3 -250 0 0 0
+4 -250 0 0 0
+5 -250 0 0 0
+6 -250 0 0 0
+7 -250 0 0 0
+8 -250 0 0 0
+9 -250 0 0 0
+
+Q2           NPN_DAR1_0       3600  1580    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-120 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-750 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+SW1          SW_TACT-SPST     12600 6780   90 0 100 10 100 10 8 4 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+230 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+110 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" CTT-1135P1
+"Source_Path" C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB
+"Value" ST-1185SA
+"Filename" 
+0 -50 0 0 0
+1 -50 0 0 0
+
+GND          PART_TP          3100  8180   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+LED2         LED_0            5800  3780   90 2 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+190 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" LED3M
+"Source_Path" C:\WORK\PROJECT\1.MYPROJECT\07_VROLL2\01_BUILD V1.0\02_VROLL2-CONTROL\VROLL2-CONTROL-001_190508.DSN
+"Value" L-314SBC
+0 -50 0 0 0
+1 -50 0 0 0
+
+LV4          PART_TP          4600  8380   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+C1           CAP_NP           3600  9580    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+200 160 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+200 -70 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-C
+"Source_Path" C:\ORCAD9.1\CAPTURE\LIBRARY\R-C.OLB
+"Value" 100nF(2012/X7R)
+0 -50 0 0 0
+1 -50 0 0 0
+
+1            TITLE_BLOCK_MEDIANA_0 12800 380     0 0 100 10 100 10 42 36 0 0 0 27
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+1020 80 0 0 93 10 1 "Bold Arial Unicode MS"
+Date1
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Business
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Description
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S2
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S1
+860 270 0 0 93 10 1 "Bold Arial Unicode MS"
+APPROVED
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+CHECKED
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+ENGINEER
+3200 80 0 0 93 10 1 "Regular Arial Unicode MS"
+R
+2430 90 0 0 93 10 1 "Bold Arial Unicode MS"
+PT
+1980 90 0 0 93 10 1 "Bold Arial Unicode MS"
+P
+2110 290 0 0 120 10 1 "Bold Arial Unicode MS"
+DOC_NUM
+2040 770 0 0 120 10 1 "Bold Arial Unicode MS"
+PROJECT
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+SUB_TITLE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+TITLE
+130 270 0 0 93 10 1 "Bold Arial Unicode MS"
+DRAFTER
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+2ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+3ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+4ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+5ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+6ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+ID
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+1ST
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S3
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S4
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+DATE2
+2100 550 0 0 120 10 1 "Bold Arial Unicode MS"
+Descripition
+320 80 0 0 93 10 1 "Bold Arial Unicode MS"
+Date
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S9
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S8
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S7
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S6
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+S5
+-10790 -140 0 0 133 10 1 "Bold Arial Unicode MS"
+DOC_NUM
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+SUB_TITLE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"Date1" 19.06.05
+"Business" EunSung Global
+"Description" ARM CPU, INTERFACE for DSP
+"S2" NC C 2012
+"S1" NC R 2012
+"APPROVED" H.J  Byun
+"CHECKED" 13.02.14
+"ENGINEER" H.J.BYUN
+"R" 1.0
+"PT" 1
+"P" 1
+"DOC_NUM" VROLL2-CONTROL-100
+"PROJECT" V-ROLL2
+"SUB_TITLE" S3C44B0X ARM CPU
+"TITLE" Won Technology
+"DRAFTER" I.G.JOUNG
+"2ST" 
+"3ST" 
+"4ST" 
+"5ST" 
+"6ST" 
+"ID" id
+"1ST" 
+"S3" 
+"S4" 
+"DATE2" XX.XX.XX
+"Descripition" CONTROL
+"Date" 19.06.05
+"PCB DECAL" 
+"Source_Path" D:\C02. PROJECT(MT)\09. 메조메이트2\1. 회로도\MESO2_160218.DSN
+"Value" title_block_epico
+"S9" 
+"S8" 
+"S7" 
+"S6" 
+"S5" 
+
+LV2          PART_TP          5600  8580   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+R2           R                5600  2380    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-230 230 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-620 110 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-R
+"Source_Path" C:\YANG\OR\MINIDT1.OLB
+"Value" 4.99KF(2012)
+0 -50 0 0 0
+1 -50 0 0 0
+
+R4           R                8800  2380    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-230 230 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-620 110 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-R
+"Source_Path" C:\YANG\OR\MINIDT1.OLB
+"Value" 4.99KF(2012)
+0 -50 0 0 0
+1 -50 0 0 0
+
+Q5           NPN_DAR1_0       8400  1580    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-20 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-650 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+LED3         LED_0            7400  3780   90 2 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+190 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" LED3M
+"Source_Path" C:\WORK\PROJECT\1.MYPROJECT\07_VROLL2\01_BUILD V1.0\02_VROLL2-CONTROL\VROLL2-CONTROL-001_190508.DSN
+"Value" L-314SBC
+0 -50 0 0 0
+1 -50 0 0 0
+
+Q3           NPN_DAR1_0       5200  1580    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-20 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-650 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+BZ           PART_TP          8900  8880   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 200 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+4R3V         PART_TP          4700  10080   0 0 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 150 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+C2           CAP_NP           4700  9580    0 0 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+200 160 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+200 -70 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" 2012-C
+"Source_Path" C:\ORCAD9.1\CAPTURE\LIBRARY\R-C.OLB
+"Value" 100nF(2012/X7R)
+0 -50 0 0 0
+1 -50 0 0 0
+
+LV5          PART_TP          4100  8280   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+LED1         LED_0            4200  3780   90 2 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+190 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" LED3M
+"Source_Path" C:\WORK\PROJECT\1.MYPROJECT\07_VROLL2\01_BUILD V1.0\02_VROLL2-CONTROL\VROLL2-CONTROL-001_190508.DSN
+"Value" L-314SBC
+0 -50 0 0 0
+1 -50 0 0 0
+
+BZ1          BUZZER(BUZ-1205)_0 10600 7580    0 0 100 10 100 10 8 4 4 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 780 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 -130 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" BST-0833A
+"Source_Path" D:\2.ES_PRJ\14.MTS\HW\MTS_CPU_REV01.DSN
+"Value" BMB-2703(8.5x8.5)
+"Filename" 
+0 -250 0 0 0
+1 -250 0 0 0
+2 -250 0 0 0
+3 -250 0 0 0
+
+P_SW         PART_TP          12400 8980    0 0 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+0 150 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+Q1           NPN_DAR1_0       9600  6780    0 0 100 10 100 10 7 3 3 0 0 10
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+-20 130 0 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+-650 30 0 0 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TR3PCC
+"Source_Path" C:\USERS\YONGTANG\DESKTOP\BLESS-U\BLESS_U(Y)_MAIN_REV0-4_170704.DSN
+"Value" KRC101S(SOT23)
+0 -50 0 0 0
+1 -50 0 0 0
+2 -50 0 0 0
+
+LV3          PART_TP          5100  8480   90 3 100 10 100 10 8 4 1 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 100 90 0 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Filename
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" TESTPOINT
+"Source_Path" E:\ORCAD\LIBRARY\LGIC.OLB
+"Value" Part_TP
+"Filename" 
+0 50 0 90 3
+
+LED4         LED_0            9000  3780   90 2 100 10 100 10 7 3 2 0 0 26
+"Regular Arial Unicode MS"
+"Regular Arial Unicode MS"
+70 -60 90 3 93 10 0 "Regular Arial Unicode MS"
+REF-DES
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PART-TYPE
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+PCB DECAL
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+190 -60 90 3 93 10 1 "Regular Arial Unicode MS"
+Value
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+0 0 0 0 100 10 0 "Regular Arial Unicode MS"
+Source_Path
+"PCB DECAL" LED3M
+"Source_Path" C:\WORK\PROJECT\1.MYPROJECT\07_VROLL2\01_BUILD V1.0\02_VROLL2-CONTROL\VROLL2-CONTROL-001_190508.DSN
+"Value" L-314SBC
+0 -50 0 0 0
+1 -50 0 0 0
+
+
+*BUSSES*
+
+
+*OFFPAGE REFS*
+
+
+
+@@@O0    LEVEL5 $OSR_SYMS 9800   1880   0 1 0
+@@@O1    LEVEL4 $OSR_SYMS 8200   1880   0 1 0
+@@@O2    LEVEL3 $OSR_SYMS 6600   1880   0 1 0
+@@@O3    LEVEL2 $OSR_SYMS 5000   1880   0 1 0
+@@@O4    LEVEL1 $OSR_SYMS 3300   1880   0 1 0
+@@@O5    GND $GND_SYMS 3000   7680   0 0 0
+@@@O6    GND $GND_SYMS 12500  6380   0 0 0
+@@@O7    +4_3V $PWR_SYMS 3000   10180  0 1 0
+@@@O8    +4_3V $PWR_SYMS 4100   4980   0 1 0
+@@@O9    +4_3V $PWR_SYMS 9800   8180   90 2 1
+@@@O10   GND $GND_SYMS 10100  6380   0 1 1
+@@@O11   GND $GND_SYMS 4800   9080   0 0 0
+@@@O12   GND $GND_SYMS 10500  1180   0 1 1
+@@@O13   GND $GND_SYMS 8900   1180   0 1 1
+@@@O14   GND $GND_SYMS 7300   1180   0 1 1
+@@@O15   GND $GND_SYMS 5700   1180   0 1 1
+@@@O16   GND $GND_SYMS 4100   1180   0 1 1
+
+*TIEDOTS*
+
+
+
+@@@D0    8800   8780  
+@@@D1    12500  8880  
+@@@D2    4800   9280  
+@@@D3    3000   8080  
+@@@D4    3000   9980  
+@@@D5    3700   9980  
+@@@D6    5700   4780  
+@@@D7    4100   4780  
+@@@D8    8900   4780  
+@@@D9    7300   4780  
+@@@D10   4800   9980  
+
+*CONNECTION*
+
+
+*SIGNAL* LEVEL5 0 0
+Q6.2         @@@O0        2 0
+9900   1880  
+9800   1880  
+CN1.9        LV5.1        2 0
+2800   8180  
+4100   8180  
+
+*SIGNAL* LEVEL4 0 0
+CN1.8        LV4.1        2 0
+2800   8280  
+4600   8280  
+Q5.2         @@@O1        2 0
+8300   1880  
+8200   1880  
+
+*SIGNAL* LEVEL3 0 0
+Q4.2         @@@O2        2 0
+6700   1880  
+6600   1880  
+CN1.7        LV3.1        2 0
+2800   8380  
+5100   8380  
+
+*SIGNAL* LEVEL2 0 0
+CN1.6        LV2.1        2 0
+2800   8480  
+5600   8480  
+Q3.2         @@@O3        2 0
+5100   1880  
+5000   1880  
+
+*SIGNAL* LEVEL1 0 0
+LV1.1        CN1.5        2 0
+6000   8580  
+2800   8580  
+Q2.2         @@@O4        2 0
+3500   1880  
+3300   1880  
+
+*SIGNAL* GND 0 0
+Q6.1         @@@O12       2 0
+10500  1480  
+10500  1180  
+Q4.1         @@@O14       2 0
+7300   1480  
+7300   1180  
+CN1.10       @@@D3        2 0
+2800   8080  
+3000   8080  
+@@@D3        @@@O5        2 0
+3000   8080  
+3000   7680  
+@@@D3        GND.1        2 0
+3000   8080  
+3100   8080  
+Q2.1         @@@O16       2 0
+4100   1480  
+4100   1180  
+SW1.1        @@@O6        2 0
+12500  6680  
+12500  6380  
+C1.2         @@@D2        3 0
+3700   9480  
+3700   9280  
+4800   9280  
+@@@D2        @@@O11       2 0
+4800   9280  
+4800   9080  
+@@@D2        C2.2         2 0
+4800   9280  
+4800   9480  
+Q5.1         @@@O13       2 0
+8900   1480  
+8900   1180  
+Q3.1         @@@O15       2 0
+5700   1480  
+5700   1180  
+Q1.1         @@@O10       2 0
+10100  6680  
+10100  6380  
+
+*SIGNAL* +4_3V 0 0
+LED5.1       @@@D8        3 0
+10500  3880  
+10500  4780  
+8900   4780  
+@@@D8        LED4.1       2 0
+8900   4780  
+8900   3880  
+@@@D8        @@@D9        2 0
+8900   4780  
+7300   4780  
+@@@D9        LED3.1       2 0
+7300   4780  
+7300   3880  
+@@@D9        @@@D6        2 0
+7300   4780  
+5700   4780  
+@@@D6        LED2.1       2 0
+5700   4780  
+5700   3880  
+@@@D6        @@@D7        2 0
+5700   4780  
+4100   4780  
+@@@D7        @@@O8        2 0
+4100   4780  
+4100   4980  
+@@@D7        LED1.1       2 0
+4100   4780  
+4100   3880  
+CN1.1        @@@D4        3 0
+2800   8980  
+3000   8980  
+3000   9980  
+@@@D4        @@@D5        2 0
+3000   9980  
+3700   9980  
+@@@D4        @@@O7        2 0
+3000   9980  
+3000   10180 
+@@@D5        C1.1         2 0
+3700   9980  
+3700   9780  
+@@@D5        @@@D10       2 0
+3700   9980  
+4800   9980  
+@@@D10       C2.1         2 0
+4800   9980  
+4800   9780  
+@@@D10       4R3V.1       2 0
+4800   9980  
+4800   10080 
+BZ1.2        @@@O9        2 0
+10300  8180  
+9800   8180  
+
+*SIGNAL* BUZZER 0 0
+CN1.3        @@@D0        2 0
+2800   8780  
+8800   8780  
+@@@D0        Q1.2         3 0
+8800   8780  
+8800   7080  
+9500   7080  
+@@@D0        BZ.1         2 0
+8800   8780  
+8900   8780  
+
+*SIGNAL* N20257390 0 0
+BZ1.3        Q1.3         3 0
+10300  7680  
+10100  7680  
+10100  7380  
+
+*SIGNAL* N20259303 0 0
+R1.2         Q2.3         2 0
+4100   2280  
+4100   2180  
+
+*SIGNAL* N20259299 0 0
+R3.2         Q4.3         2 0
+7300   2280  
+7300   2180  
+
+*SIGNAL* PWR_SW 0 0
+CN1.2        @@@D1        2 0
+2800   8880  
+12500  8880  
+@@@D1        SW1.2        2 0
+12500  8880  
+12500  7180  
+@@@D1        P_SW.1       2 0
+12500  8880  
+12500  8980  
+
+*SIGNAL* N20259297 0 0
+R4.2         Q5.3         2 0
+8900   2280  
+8900   2180  
+
+*SIGNAL* N20259301 0 0
+R2.2         Q3.3         2 0
+5700   2280  
+5700   2180  
+
+*SIGNAL* N20259295 0 0
+Q6.3         R5.2         2 0
+10500  2180  
+10500  2280  
+
+*SIGNAL* N20260085 0 0
+R1.1         LED1.2       2 0
+4100   2780  
+4100   3280  
+
+*SIGNAL* N20260088 0 0
+LED2.2       R2.1         2 0
+5700   3280  
+5700   2780  
+
+*SIGNAL* N20260091 0 0
+R3.1         LED3.2       2 0
+7300   2780  
+7300   3280  
+
+*SIGNAL* N20260098 0 0
+R4.1         LED4.2       2 0
+8900   2780  
+8900   3280  
+
+*SIGNAL* N20260101 0 0
+R5.1         LED5.2       2 0
+10500  2780  
+10500  3280  
+
+*NETNAMES*
+
+
+
+LEVEL5       @@@O0        -690   -10    0 0 304    0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL4       @@@O1        -730   -10    0 0 304    0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL3       @@@O2        -730   -10    0 0 304    0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL2       @@@O3        -730   -10    0 0 304    0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL1       @@@O4        -730   -10    0 0 304    0      0 0 -1 10 93 "Regular Arial Unicode MS"
++4_3V        @@@O7        -120   150    0 0 218    0      0 0 -1 10 93 "Regular Arial Unicode MS"
++4_3V        @@@O8        -120   150    0 0 218    0      0 0 -1 10 93 "Regular Arial Unicode MS"
++4_3V        @@@O9        -340   -10    0 0 218    0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL2       CN1.6        700    0      0 0 34     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL5       CN1.9        700    0      0 0 34     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+BUZZER       Q1.2         -600   0      0 0 38     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL1       LV1.1        -2500  0      0 0 34     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+PWR_SW       CN1.2        400    0      0 0 42     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL4       CN1.8        700    0      0 0 34     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+LEVEL3       CN1.7        700    0      0 0 34     0      0 0 -1 10 93 "Regular Arial Unicode MS"
+
+*END*     OF ASCII OUTPUT FILE
